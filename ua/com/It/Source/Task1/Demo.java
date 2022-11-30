@@ -18,8 +18,5 @@ public class Demo {
         System.out.println(SubTask6.getSerialNumb("AAA"));
         System.out.println(SubTask6.getLetters(277));
         System.out.println(SubTask6.getSerialNumbPlusOne("AAA"));
-        
-        
-
     }
 }
