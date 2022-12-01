@@ -2,18 +2,20 @@
 public class Demo {
     public static void main(String[] args) {
         // Subtask 1
-        SubTask1.main(new String[] {"1.1","1.1"});
+        System.out.printf("Sum is %.1f",SubTask1.getSum(1.1, 1.55));
+        System.out.println();
         
         // Subtask 2
-        SubTask2.main(new String[] {" sttt "});
+        System.out.println(SubTask2.getTrim("   HHH ggggg   "));
 
-        SubTask3.main(1, 2);
-
+        // Subtask 3
+        System.out.println("higher dived : " + SubTask3.getHigherDived(8, 12));
+        
         // Subtask 4
-        SubTask4.main(new String[] {"45"});
+        System.out.println("Sum of yuor digit is : " + SubTask4.getSumOfDigits(1111));
 
         // Subtask 5
-        SubTask5.main(new String[] {"45","100"});
+        System.out.println("Truth nums is : " + SubTask5.getTruthNums(45, 100));
         // Subtask 6
         System.out.println(SubTask6.getSerialNumb("AAA"));
         System.out.println(SubTask6.getLetters(277));
