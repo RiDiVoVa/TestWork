@@ -3,7 +3,6 @@
 import java.util.Stack;
 
 public class SubTask1ForTask2 {
-    //hfhfbhjdjcndjk
     public static boolean testString(String text) {
         if (text == null)
             throw new IllegalArgumentException();
