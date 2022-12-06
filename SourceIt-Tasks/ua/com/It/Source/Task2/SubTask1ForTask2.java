@@ -1,17 +1,15 @@
-package ua.com.It.Source.Task2;
 
-import java.util.HashMap;
+
 import java.util.Stack;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-public class SubTask1 {
+public class SubTask1ForTask2 {
+    //hfhfbhjdjcndjk
     public static boolean testString(String text) {
         if (text == null)
             throw new IllegalArgumentException();
- 
+
         Stack<Character> stack = new Stack<Character>();
- 
+
         for (int i = 0; i < text.length(); i++) {
             char symbol = text.charAt(i);
             if (symbol == '(' || symbol == '{' || symbol == '[')
@@ -29,5 +27,5 @@ public class SubTask1 {
         }
         return stack.empty();
     }
-    
+
 }

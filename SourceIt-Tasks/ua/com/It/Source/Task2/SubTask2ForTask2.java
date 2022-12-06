@@ -1,10 +1,9 @@
-package ua.com.It.Source.Task2;
 
-import java.util.Arrays;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SubTask2 {
+public class SubTask2ForTask2 {
     public static int substrCount(String input,String needle,int ofset,int lenth) 
     {
         StringBuffer strBuff = new StringBuffer(input);

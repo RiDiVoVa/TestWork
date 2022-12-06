@@ -1,4 +1,4 @@
-package ua.com.It.Source.Task2;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ProgramTest {
+    //проверить когда отправляешь файл с сабтаск2 на каую ветку в репозитории она придет
     public static int counter = 0;
     public static boolean truth;
     public static String input = "[[]]";
