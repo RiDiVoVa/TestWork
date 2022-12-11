@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Stream;
-
 public class DemoForTask2 {
     public static String input = "()()";
     public static void main(String[] args) {
