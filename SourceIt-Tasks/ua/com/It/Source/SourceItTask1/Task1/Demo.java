@@ -2,7 +2,7 @@
 public class Demo {
     public static void main(String[] args) {
         // Subtask 1
-        System.out.printf("Sum is %.1f",SubTask1.getSum(1.1, 1.55));
+        System.out.printf("Sum is %.1f", SubTask1.getSum(1.1, 1.55));
         System.out.println();
         
         // Subtask 2
