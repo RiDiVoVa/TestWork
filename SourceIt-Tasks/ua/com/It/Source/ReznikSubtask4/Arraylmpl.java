@@ -14,7 +14,6 @@ public class Arraylmpl implements Array {
         }
         System.out.println();
         System.out.println("-----------------");
-        System.out.println("-----------------");
 
 
         b.remove();
